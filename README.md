@@ -1,8 +1,19 @@
 # introduccionC
 Ejemplos introductorios al lenguaje
 
-## ../Básicos
-Ejercicios básicos introductorios al lenguaje
+## ./Scripting
+
+| Ejercicio | Descripción |
+| --------- | ----------- |
+| script1.sh | Que busque cuales de los ficheros del directorio /bin no tienen página de manual en la sección 1 |
+| script2.sh | A partir de un directorio que recibe como argumento, añada permisos de ejecución de forma recursiva a todos los archivos con extensión .sh |
+| script3.sh | Que muestre recursivamente todos los ficheros y directorios cuyo nombre empiece por *a* o por *b* y que no contenga el caracter "~", a partir de un directorio que se pasa por argumentos |
+| script4.sh | Que busque en todos los directorios en la variable de entorno *PATH* el nombre de un archivo que se le pasa como parámetros |
+| script5.sh | A partir de un directorio que recibe como argumento, busque los dos archivos de más tamaño y muestre su nombre y su tamaño |
+
+
+## ./Básicos
+Ejercicios básicos C
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
