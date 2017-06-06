@@ -1,5 +1,5 @@
 # introduccionC
-Ejemplos introductorios al lenguaje
+Ejemplos introductorios al lenguaje + Scripts Linux
 
 ## ./Scripting
 
