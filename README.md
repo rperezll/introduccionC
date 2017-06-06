@@ -36,8 +36,8 @@ Ejemplos introductorios al lenguaje + Scripts Linux
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
-| cenafilosofos.c |  |
-| cenafilosofos_condiciones.c |  |
+| cenafilosofos.c | El problema de los filosofos sin condiciones (si un filosofo bloquea un palillo y otro bloquea la pareja de dicho palillo, ninguno de los dos vuelve a desbloquear el suyo) |
+| cenafilosofos_condiciones.c | El problema de los filosofos con condiciones |
 | ejemplo.c | Este es un **ejemplo** para entender la condición de carrera. Gracias a los semáforos, la variable vale siempre 20000 |
 | mutex.c | Cree dos threads que accedan simultáneamente a un buffer de 10000 enteros. Uno de ellos lee en el buffer y el otro escribe en el mismo. El thread escritor, deber escribir el mismo valor en todos los elementos del buffer incrementando en uno el valor en cada pasada. El thread ñector debe ir comprobando que todos los números del buffer son iguales, mostrando un mensaje de error en caso contrario o un mensaje correcto si la condición se cumple. El código a realizar utilizará un mutex para acceder al buffer si se indica un parámetri a ejecutar el programa. En caso contrario, los threads accederán al buffer de cualquier manera. |
 | orden.c | Cree dos threads y mediante el uso de un semáforo se fuerce que siempre uno de ellos escriba por pantalla antes que el otro |
