@@ -3,6 +3,8 @@
 #include <pthread.h>
 #include <unistd.h>
 
+//para compilar: gcc nombre.c -lpthread
+
 #define FILOSOFOS 5
 int estado_filosofo[FILOSOFOS];
 pthread_mutex_t palillo[FILOSOFOS];
