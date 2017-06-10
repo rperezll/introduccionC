@@ -14,14 +14,14 @@ int main(int argc, char *argv[])
 	{
 		lineas = 10;
 		concatena(lineas);
-		return 1;
+		return 0;
 	}
 	else if (argc == 2) //Si existe un argumento
 	{
 		char *num = argv[1] + 1; //argv[1] es un puntero que al añadir +1 apunta a la siguiente posición 	
 		lineas = atoi(num);
 		concatena(lineas);
-		return 1;
+		return 0;
 	}
 }
 
